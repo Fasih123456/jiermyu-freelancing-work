@@ -1,16 +1,19 @@
+import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Home from './Home';
+
 import '../css/App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          Learn React
-        </p>
-      </header>
-    </div>
+const App = () => {
+  return(
+      <div>
+          <BrowserRouter>
+            <React.Fragment>
+              <Route path="/" exact  component={Home} />
+            </React.Fragment>
+          </BrowserRouter>
+      </div>
   );
-}
+};
 
 export default App;
