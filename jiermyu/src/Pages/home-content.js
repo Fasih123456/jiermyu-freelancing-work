@@ -4,10 +4,11 @@ import Header from './Header';
 import Footer from './Footer';
 
 import '../css/styles.css';
+import '../css/home-content.css'
 
 const Home = () => {
     return(
-        <div>
+        <div class='container px-4 px-lg-5'>
         <Header />
 
         <div class="container px-4 px-lg-5">
