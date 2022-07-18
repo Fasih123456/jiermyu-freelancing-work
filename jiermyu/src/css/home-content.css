@@ -15,7 +15,7 @@ body{
 
 p{
     font-size: 0.85em;
-    font-weight: 600;
+    font-weight: 500;
     word-spacing: 5px;
 }
 
@@ -28,4 +28,53 @@ h1{
 
 .col{
     padding-bottom: 15px;
+}
+
+.yellow-text{
+    color: #bfc500;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.ponzi{
+    font-size: 1.05em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.italic-text{
+    font-size: .8em;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.middle-section{
+    color: #000;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.buy-ape{
+
+    font-size: 1.5em;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.shirt-mask {
+    max-width: 100%;
+
+}
+
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
 }
