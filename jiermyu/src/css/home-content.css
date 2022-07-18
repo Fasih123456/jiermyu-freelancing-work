@@ -13,9 +13,19 @@ body{
     color: white;
 }
 
+p{
+    font-size: 0.85em;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
 h1{
     color: white;
     font-style: italic !important;
     font-size: 1.8em;
     font-weight: 900;
+}
+
+.col{
+    padding-bottom: 15px;
 }
