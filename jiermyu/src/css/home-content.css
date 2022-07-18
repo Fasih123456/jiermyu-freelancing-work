@@ -1,6 +1,21 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 svg{
     color: #fff;
     padding: 25px 10px;
     transition: .3s;
     font-size: 15px;
+}
+
+body{
+    color: white;
+}
+
+h1{
+    color: white;
+    font-style: italic !important;
+    font-size: 1.8em;
+    font-weight: 900;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './Header';
 import Footer from './Footer';
+import {Row, Col, Container} from 'react-bootstrap';
 
 import '../css/styles.css';
 import '../css/home-content.css'
@@ -11,67 +12,22 @@ const Home = () => {
         <div class='container px-4 px-lg-5'>
         <Header />
 
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 24, 2022
-                        </p>
-                    </div>
-
-                    <hr class="my-4" />
-
-                    <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 18, 2022
-                        </p>
-                    </div>
-
-                    <hr class="my-4" />
- 
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2022
-                        </p>
-                    </div>
-
-                    <hr class="my-4" />
-
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2022
-                        </p>
-                    </div>
-
-                    <hr class="my-4" />
-
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
-                </div>
-            </div>
-        </div>
+        <Container style={{paddingTop: "60px"}}>
+        <Row>
+            <Col sm={8}>
+                <h1>WELCOME TO THE BORED APE YACHT CLUB</h1>
+                <p>
+                BAYC is a collection of 10,000 Bored Ape NFTs—unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation.
+                </p>
+            </Col>
+            <Col sm={4}>2 of 2</Col>
+        </Row>
+        <Row>
+            <Col>1 of 3</Col>
+            <Col>2 of 3</Col>
+            <Col>3 of 3</Col>
+        </Row>
+        </Container>
 
         <Footer />
 
