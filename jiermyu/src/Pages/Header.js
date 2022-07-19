@@ -36,6 +36,11 @@ const Header = () => {
         <header>
         <img src="https://ik.imagekit.io/bayc/assets/bayc-mutant-hero.jpg" class="img-fluid px-0" usemap="#mutant" />
         </header>
+
+
+
+
+
         </React.Fragment>
     );
 }
