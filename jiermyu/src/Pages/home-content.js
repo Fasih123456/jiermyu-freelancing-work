@@ -9,7 +9,7 @@ import "../css/home-content.css";
 
 const Home = () => {
   return (
-    <div class="container px-4 px-lg-5">
+    <div class="container px-4 px-lg-5" id='main-body'>
       <Header />
 
       <Container style={{ paddingTop: "60px" }}>
