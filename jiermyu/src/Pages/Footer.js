@@ -38,7 +38,7 @@ const Footer = () => {
                         value=""
                       />
                     </div>
-                    <button name="subscribe" class="email-submit" type="submit">
+                    <button name="subscribe" class="email-submit" type="submit" style={{borderRadius: "0px"}}>
                       →
                     </button>
                   </form>
