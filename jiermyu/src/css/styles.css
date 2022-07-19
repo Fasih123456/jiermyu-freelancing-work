@@ -9498,10 +9498,7 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
-  .py-lg-0 {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
+
 
   .py-lg-1 {
     padding-top: 0.25rem !important;
@@ -11168,6 +11165,12 @@ header.masthead .post-heading .subheading {
   line-height: 1.1;
   display: block;
 }
+
+.py-lg-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 header.masthead .post-heading .subheading {
   font-size: 1.5rem;
   font-weight: 600;

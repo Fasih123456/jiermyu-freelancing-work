@@ -8,6 +8,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+nav{
+    width: 93%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 svg{
     color: #fff;
     padding: 30px 10px;
@@ -166,7 +177,7 @@ button:hover{
     align-items: center;
     display: flex;
     margin: 10px !important;
-    height: 160px;
+    height: 130px;
     width: 130px;
 }
 
@@ -205,19 +216,54 @@ button:hover{
     height: 50px;
 }
 
-@media only screen and (min-width: 992px){
+#mainNav {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+
+.navbar-expand-lg .navbar-nav {
+     flex-direction: row; 
+}
+
+@media only screen and (max-width: 992px){
     .email-label {
         font-weight: 600;
         font-size: 13px;
         font-style: italic;
         color: #fff;
     }
+
+    .yellow-division{
+        height: 350px !important;
+    }
+
+    .nav-link{
+        padding-top: 25px !important;
+    }
+
+
     
 }
+
+
 
 .email-label {
     font-weight: 600;
     font-size: 20px;
     font-style: italic;
     color: #fff;
+}
+
+
+.yellow-division{
+    background-color: #bfc500 !important;
+    margin-bottom: 15px;
+    height: 135px;
+    margin-top: 0px;
+    padding-top: 0px;
 }

@@ -13,9 +13,13 @@ const Home = () => {
       <Header />
 
       <Container style={{ paddingTop: "60px" }}>
-        <Row>
-          <Col sm={8}>
-            <h1>
+
+      <div class="mb-5 row">
+          <div class="col">
+            <div id="team" class="common-container">
+              <div class="row">
+                <div class="mb-3 col-lg-7 col-12">
+                <h1>
               WELCOME TO THE <br /> BORED APE YACHT CLUB
             </h1>
             <p>
@@ -25,45 +29,53 @@ const Home = () => {
               BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by
               the community through roadmap activation.
             </p>
-          </Col>
-          <Col sm={4}>
-            <Row>
-              <Col>
-                <img
+                </div>
+                <div class="col-lg-4 col-12 offset-lg-1">
+                  <div class="common-container">
+                    <div class="row">
+                      <div class="pb-2 pr-2 col-6">
+                      <img
                   class="img-fluid"
                   src="https://ik.imagekit.io/bayc/assets/ape1.png"
                   alt="ape1"
                   aria-label="ape1"
                 />
-              </Col>
-              <Col>
-                <img
+                      </div>
+                      <div class="pb-2 pl-2 col-6">
+                      <img
                   class="img-fluid"
                   src="https://ik.imagekit.io/bayc/assets/ape2.png"
                   alt="ape2"
                   aria-label="ape2"
                 />
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <img
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="pt-2 pr-2 col-6">
+                      <img
                   class="img-fluid"
                   src="https://ik.imagekit.io/bayc/assets/ape3.png"
                   alt="ape3"
                   aria-label="ape3"
                 />
-              </Col>
-              <Col>
-                <img
+                      </div>
+                      <div class="pt-2 pl-2 col-6">
+                      <img
                   class="img-fluid"
                   src="https://ik.imagekit.io/bayc/assets/ape4.png"
                   aria-label="ape4"
                 />
-              </Col>
-            </Row>
-          </Col>
-        </Row>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
         <div class="row" style={{ paddingBottom: "40px" }}>
           <div class="mb-3 col-12">
             <h3 class="yellow-text">FAIR DISTRIBUTION</h3>
@@ -84,14 +96,8 @@ const Home = () => {
         </div>
 
         <div
-          class="mb-5 row"
-          style={{
-            backgroundColor: "#bfc500",
-            marginBottom: "15px",
-            height: "135px",
-            marginTop: "0px",
-            paddingTop: "0px",
-          }}
+          class="mb-5 row yellow-division"
+
         >
           <div class="col">
             <div id="buy-an-ape" class="fair-title">
@@ -123,6 +129,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <hr style={{borderColor: "rgb(105,105,105)", opacity: "30%"}} />
 
         <div class="mb-5 row">
           <div class="col">
@@ -162,6 +170,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <hr style={{borderColor: "rgb(105,105,105)", opacity: "30%"}} />
 
         <Row>
           <Col sm={8}>
@@ -243,6 +253,9 @@ const Home = () => {
             </Row>
           </Col>
         </Row>
+
+        <hr style={{borderColor: "rgb(105,105,105)", opacity: "30%"}} />
+
         <div class="mb-5 row">
           <div class="col">
             <div class="common-container">
@@ -274,6 +287,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <hr style={{borderColor: "rgb(105,105,105)", opacity: "30%"}} />
         <div class="row">
           <div class="mb-3 col-lg-9 col-12">
             <h2 class="common-title mb-3">ROADMAP ACTIVATIONS</h2>
@@ -373,6 +388,7 @@ const Home = () => {
 
           </div>
         </div>
+        <hr style={{borderColor: "rgb(105,105,105)", opacity: "30%"}} />
 
         <div class="mb-5 row">
           <div class="col">
@@ -406,6 +422,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <hr style={{borderColor: "rgb(105,105,105)", opacity: "30%"}} />
 
         <div class="mb-5 row">
           <div class="col">

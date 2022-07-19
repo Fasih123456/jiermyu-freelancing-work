@@ -10,9 +10,9 @@ const Footer = () => {
           <div class="row mx-0 footer-padding">
             <div class="col-12 col-lg-4 order-lg-first my-lg-auto">
               <div class="email-container">
-                <span class="email-label">GET ON THE LIST</span>
+                <span class="email-label" >GET ON THE LIST</span>
                 <br />
-                <div class="d-flex email-flex">
+                <div class="d-flex email-flex" style={{paddingTop: "10px"}}>
                   <br />
                   <form
                     id="email-submit"
