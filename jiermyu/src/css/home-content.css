@@ -1,10 +1,16 @@
+#root{
+    background-color: #000;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
 *{
     font-family: 'Montserrat', sans-serif;
 }
 
 svg{
     color: #fff;
-    padding: 25px 10px;
+    padding: 30px 10px;
     transition: .3s;
     font-size: 15px;
 }
@@ -15,15 +21,17 @@ body{
 
 p{
     font-size: 0.85em;
-    font-weight: 500;
+    font-weight: 300;
     word-spacing: 5px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1{
     color: white;
     font-style: italic !important;
     font-size: 1.8em;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .col{
@@ -33,13 +41,13 @@ h1{
 .yellow-text{
     color: #bfc500;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.6em;
 }
 
 .ponzi{
     font-size: 1.05em;
-    font-weight: 500;
+    font-weight: 600;
     font-style: italic;
 }
 
@@ -56,12 +64,15 @@ h1{
     margin-bottom: 20%;
 }
 
-.buy-ape{
-
+.buy-ape-title{
     font-size: 1.5em;
     font-weight: 800;
     font-style: italic;
+    color: #000;
+    text-align: center;
 }
+
+
 
 .left-align{
     text-align: left;
@@ -69,12 +80,102 @@ h1{
 
 .shirt-mask {
     max-width: 100%;
-
+    opacity: 100%;
+    height: 300px;
+    width: 280px;
 }
+
+.shirt {
+    position: absolute;
+    top: -8%;
+    left: -5%;
+    max-width: 114%;
+}
+
+
 
 
 
 img {
     vertical-align: middle;
     border-style: none;
+}
+
+.navigation-link-text{
+    color: #fff;
+    font-size: 8px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    caret-color: transparent;
+    text-align: end;
+    transition: .15s;
+    margin-top: 8px !important;
+}
+
+.note{
+    font-size: .8em;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.inside-button-font{
+    background-color: #000;
+    color: #bfc500;
+    font-weight: 800;
+}
+
+#button-for-buy:hover{
+    background-color: white;
+    color:#000;
+    transition: .3s;
+}
+
+.button-style{
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.multiple-image-display{
+    align-items: center;
+    display: flex;
+    margin: 10px !important;
+    height: 160px;
+    width: 130px;
+}
+
+.each-column{
+    margin-top: 10px !important;
+}
+
+.link{
+    color: #bfc500;
+    text-decoration: underline;
+    word-wrap: break-word;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.center{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.goal {
+    color: #bfc500;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+.percentage{
+    margin-bottom: 0px !important;
+    height: 50px;
 }
