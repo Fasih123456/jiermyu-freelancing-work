@@ -289,7 +289,9 @@ const Home = () => {
                 <p class="goal">10%</p>
               </div>
               <div class="m-auto col-lg-10 col-9">
-                <p class="text-decoration-line-through common-sub-p small-text">We pay back our moms.</p>
+                <p class="text-decoration-line-through common-sub-p small-text">
+                  We pay back our moms.
+                </p>
               </div>
             </div>
             <div class="mb-3 mb-lg-1 row percentage">
@@ -325,7 +327,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div class="mb-3 mb-lg-1 row percentage  " style={{height: "70px"}}>
+            <div class="mb-3 mb-lg-1 row percentage  " style={{ height: "70px" }}>
               <div class="m-auto col-lg-1 col-2 offset-lg-1 offset-1">
                 <p class="goal">80%</p>
               </div>
@@ -359,14 +361,16 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div class="shirt-container mx-auto mb-5 my-lg-auto col-lg-3 col-12 offset-lg-1 center" style={{backgroundColor: "#bfc500", maxWidth: "80%", height: "240px"}}>
-  
+          <div
+            class="shirt-container mx-auto mb-5 my-lg-auto col-lg-3 col-12 offset-lg-1 center"
+            style={{ backgroundColor: "#bfc500", maxWidth: "80%", height: "240px" }}
+          >
             <img
               class="shirt-mask"
               src="https://ik.imagekit.io/bayc/assets/shirt.png"
               alt="shirt"
             />
-            <img class="shirt" src="https://ik.imagekit.io/bayc/assets/shirt.png" alt="shirt" />
+
           </div>
         </div>
 
@@ -472,6 +476,23 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-5 row">
+          <div class="col">
+            <div class="d-flex justify-content-center">
+              <p class="common-p text-center text-break mb-0">
+                <span class="bold-text">VERIFIED SMART CONTRACT ADDRESS: </span>
+                <a
+                  title="0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"
+                  href="https://etherscan.io/address/0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"
+                  class="link"
+                >
+                  0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D
+                </a>
+              </p>
             </div>
           </div>
         </div>

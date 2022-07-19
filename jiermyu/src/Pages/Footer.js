@@ -1,3 +1,5 @@
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
 const Footer = () => {
   return (
 
@@ -53,18 +55,11 @@ const Footer = () => {
             <div class="order-last my-auto text-center col-lg-4 col-sm-12 col-12">
               <div class="row">
                 <div class="text-lg-right col-sm-12 col-12">
-                  <a href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q">
-                    <i class="fa fa-youtube-play social-icon pr-lg-0"></i>
-                  </a>
-                  <a href="">
-                    <i class="fa fa-instagram social-icon pr-lg-0"></i>
-                  </a>
-                  <a href="https://discord.gg/3P5K3dzgdB">
-                    <i class="fa fa-discord-alt social-icon pr-lg-0"></i>
-                  </a>
-                  <a href="https://twitter.com/BoredApeYC">
-                    <i class="fa fa-twitter social-icon pr-lg-0"></i>
-                  </a>
+                <a href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q"><FontAwesomeIcon icon="fa-brands fa-youtube" /></a>
+                        <FontAwesomeIcon icon="fa-brands fa-instagram" />
+                        <a href="https://discord.gg/3P5K3dzgdB"><FontAwesomeIcon icon="fa-brands fa-discord" /></a>
+                        <a href="https://twitter.com/BoredApeYC">                        <FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+
                 </div>
                 <div class="col-lg-12 col-sm-6 col-6">
                   <p class="copyright text-right">
