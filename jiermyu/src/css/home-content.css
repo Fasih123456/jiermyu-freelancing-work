@@ -259,6 +259,12 @@ button:hover{
         color: #fff;
     }
 
+    .header-links{
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+    }
+
     .yellow-division{
         height: 350px !important;
     }

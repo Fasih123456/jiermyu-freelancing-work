@@ -3,36 +3,38 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
     return (
         <div class='main-header'>
-                   <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
+            <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+                <div class="container px-4 px-lg-5">
 
 
-                <div class="collapse navbar-collapse" id="navbarResponsive" style={{paddingTop: "0px"}}>
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href=""><p class='navigation-link-text'>Home</p></a></li>
-                        <a href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q"><FontAwesomeIcon icon="fa-brands fa-youtube" /></a>
-                        <FontAwesomeIcon icon="fa-brands fa-instagram" />
-                        <a href="https://discord.gg/3P5K3dzgdB"><FontAwesomeIcon icon="fa-brands fa-discord" /></a>
-                        <a href="https://twitter.com/BoredApeYC">                        <FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+                    <div class="collapse navbar-collapse" id="navbarResponsive" style={{ paddingTop: "0px" }}>
+                        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                            <li class="nav-item "><a class="nav-link px-lg-3 py-3 py-lg-4" href=""><p class='navigation-link-text'>Home</p></a></li>
 
 
-                    </ul>
+                            <a href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q" class='header-links'><FontAwesomeIcon icon="fa-brands fa-youtube" /></a>
+                            <a class='header-links'><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
+                            <a href="https://discord.gg/3P5K3dzgdB" class='header-links'><FontAwesomeIcon icon="fa-brands fa-discord" /></a>
+                            <a href="https://twitter.com/BoredApeYC" class='header-links'>                        <FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+
+
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <div>
+            </nav>
+            <div>
                 <img src="https://ik.imagekit.io/bayc/assets/bayc-logo-z.png" class="d-inline-block align-top" alt="bored ape logo" height="75px" width="auto" />
-                </div>
+            </div>
 
-        
-        <header>
-        <img src="https://ik.imagekit.io/bayc/assets/bayc-mutant-hero.jpg" class="img-fluid px-0" usemap="#mutant" />
-        </header>
+
+            <header>
+                <img src="https://ik.imagekit.io/bayc/assets/bayc-mutant-hero.jpg" class="img-fluid px-0" usemap="#mutant" />
+            </header>
 
 
 
