@@ -1,10 +1,29 @@
 #root{
     background-color: #000;
+
+}
+
+::placeholder{
+    font-size: 10px;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.last-section{
+    font-size: 12px;
+    display: flex;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.main-body, .main-header{
     padding-left: 8%;
     padding-right: 8%;
 }
 
-
+.footer{
+    padding-bottom: 0px;
+}
 
 *{
     font-family: 'Montserrat', sans-serif;
@@ -263,7 +282,12 @@ button:hover{
     
 }
 
-
+.last-line {
+    border-bottom: 15px solid #bfc500;
+    display: block;
+    padding-top: 30px;
+    max-width: 100%;
+}
 
 input {
     background-color: #272626;

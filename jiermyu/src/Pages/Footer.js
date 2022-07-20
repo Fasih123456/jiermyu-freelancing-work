@@ -6,11 +6,11 @@ const Footer = () => {
 
       <footer class="footer">
         <div class="container-fluid footer-line">
-          <hr class="p-0 line" />
+
           <div class="row mx-0 footer-padding">
-            <div class="col-12 col-lg-4 order-lg-first my-lg-auto">
-              <div class="email-container">
-                <span class="email-label" >GET ON THE LIST</span>
+            <div class="col-12 col-lg-4 order-lg-first my-lg-auto" style={{fontSize: "12px"}}>
+              <div class="email-container" >
+                <span class="email-label" style={{fontSize: "12px"}}>GET ON THE LIST</span>
                 <br />
                 <div class="d-flex email-flex" style={{paddingTop: "10px"}}>
                   <br />
@@ -45,14 +45,15 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-4 order-first">
+            <div class="col-12 col-lg-4 order-first" style={{display: "flex"}}>
               <img
                 class="img-fluid footer-logo"
                 src="https://ik.imagekit.io/bayc/assets/bayc-footer.png"
                 alt="logo"
+                style={{margin: "auto", height: "200px"}}
               />
             </div>
-            <div class="order-last my-auto text-center col-lg-4 col-sm-12 col-12">
+            <div class="order-last my-auto text-center col-lg-4 col-sm-12 col-12 last-section">
               <div class="row">
                 <div class="text-lg-right col-sm-12 col-12">
                 <a href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q"><FontAwesomeIcon icon="fa-brands fa-youtube" /></a>

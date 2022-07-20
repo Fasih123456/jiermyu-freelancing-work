@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 const Header = () => {
     return (
-        <React.Fragment>
+        <div class='main-header'>
                    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
 
@@ -38,7 +38,7 @@ const Header = () => {
 
 
 
-        </React.Fragment>
+        </div>
     );
 }
 

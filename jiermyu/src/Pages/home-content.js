@@ -9,9 +9,9 @@ import "../css/home-content.css";
 
 const Home = () => {
   return (
-    <div class="container px-4 px-lg-5" id='main-body'>
-      <Header />
-
+    <React.Fragment>
+            <Header />
+    <div class="container px-4 px-lg-5 main-body" >
       <Container style={{ paddingTop: "60px" }}>
 
       <div class="mb-5 row">
@@ -498,7 +498,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="mb-5 row">
+        <div class="mb-5 row" id='final-section'>
           <div class="col">
             <div class="d-flex justify-content-center">
               <p class="common-p text-center text-break mb-0">
@@ -514,10 +514,13 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
       </Container>
 
-      <Footer />
+      <hr class="p-0 line" />
     </div>
+    <Footer />
+    </React.Fragment>
   );
 };
 
