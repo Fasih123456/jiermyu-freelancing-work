@@ -5,6 +5,8 @@ const Footer = () => {
 
 
       <footer class="footer">
+
+              
         <div class="container-fluid footer-line">
 
           <div class="row mx-0 footer-padding">
@@ -45,13 +47,17 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+   
             <div class="col-12 col-lg-4 order-first" style={{display: "flex"}}>
+            <hr class='logo-lines' />
               <img
                 class="img-fluid footer-logo"
                 src="https://ik.imagekit.io/bayc/assets/bayc-footer.png"
                 alt="logo"
                 style={{margin: "auto", height: "200px"}}
               />
+
+<hr class='logo-lines' />
             </div>
             <div class="order-last my-auto text-center col-lg-4 col-sm-12 col-12 last-section">
               <div class="row">

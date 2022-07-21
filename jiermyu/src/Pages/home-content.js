@@ -517,7 +517,7 @@ const Home = () => {
         
       </Container>
 
-      <hr class="p-0 line" />
+      <hr class="p-0 line last-line-page" />
     </div>
     <Footer />
     </React.Fragment>

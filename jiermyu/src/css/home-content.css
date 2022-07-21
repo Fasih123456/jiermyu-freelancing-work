@@ -251,7 +251,20 @@ button:hover{
      flex-direction: row; 
 }
 
+.logo-lines{
+    opacity: 0;
+}
+
 @media only screen and (max-width: 992px){
+    .last-line-page{
+        opacity: 0;
+    }
+
+    .logo-lines{
+        width: 40%;
+        margin-top: 100px;
+        opacity: 1;
+    }
 
     .last-section{
         text-align: center !important;
