@@ -12,8 +12,8 @@
 .last-section{
     font-size: 12px;
     display: flex;
-    text-align: right;
-    padding-right: 50px;
+    text-align: right !important;
+    padding-right: 8%;
 }
 
 .main-body, .main-header{
@@ -252,6 +252,11 @@ button:hover{
 }
 
 @media only screen and (max-width: 992px){
+
+    .last-section{
+        text-align: center !important;
+    }
+
     .email-label {
         font-weight: 600;
         font-size: 13px;
