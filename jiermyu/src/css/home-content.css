@@ -260,6 +260,10 @@ footer{
 }
 
 @media only screen and (max-width: 992px){
+    .final-footer{
+        opacity: 0;
+    }
+
     .last-line-page{
         opacity: 0;
     }

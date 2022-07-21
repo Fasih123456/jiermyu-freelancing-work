@@ -70,16 +70,16 @@ const Footer = () => {
                 </div>
                 <div class="col-lg-12 col-sm-6 col-6">
                   <p class="copyright text-right">
-                    <span class="copy-left">© 2021 Yuga Labs LLC</span>
+                    <span class="copy-left final-footer">© 2021 Yuga Labs LLC</span>
                   </p>
                 </div>
                 <div class="col-lg-12 col-sm-6 col-6">
                   <p id="terms" class="copyright text-right">
-                    <a class="link" href="#/terms">
+                    <a class="link final-footer" href="#/terms">
                       BAYC Terms &amp; Conditions
                     </a>
                     <br />
-                    <a class="link" href="#/mayc/terms">
+                    <a class="link final-footer" href="#/mayc/terms">
                       MAYC Terms &amp; Conditions
                     </a>
                   </p>
