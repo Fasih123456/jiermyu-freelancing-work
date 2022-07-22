@@ -4,6 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { Row, Col, Container } from "react-bootstrap";
 
+
 import "../css/styles.css";
 import "../css/home-content.css";
 
@@ -12,13 +13,15 @@ const Home = () => {
     <React.Fragment>
             <Header />
     <div class="container px-4 px-lg-5 main-body" >
-      <Container style={{ paddingTop: "60px" }}>
+      
 
-      <div class="mb-5 row">
+      <Container style={{ paddingTop: "1.5rem" }}>
+
+      <div class="mb-2 row">
           <div class="col">
             <div id="team" class="common-container">
-              <div class="row">
-                <div class="mb-3 col-lg-7 col-12">
+              <div class="mb-5 row">
+                <div class="mb-3 col-lg-7 col-12 zero-padding">
                 <h1>
               WELCOME TO THE <br /> BORED APE YACHT CLUB
             </h1>
@@ -30,10 +33,10 @@ const Home = () => {
               the community through roadmap activation.
             </p>
                 </div>
-                <div class="col-lg-4 col-12 offset-lg-1">
+                <div class="col-lg-4 col-12 offset-lg-1 zero-padding">
                   <div class="common-container">
                     <div class="row">
-                      <div class="pb-2 pr-2 col-6">
+                      <div class="pb-2 pr-2 col-6 img-fluid-section left-padding">
                       <img
                   class="img-fluid"
                   src="https://ik.imagekit.io/bayc/assets/ape1.png"
@@ -41,7 +44,7 @@ const Home = () => {
                   aria-label="ape1"
                 />
                       </div>
-                      <div class="pb-2 pl-2 col-6">
+                      <div class="pb-2 pl-2 col-6 img-fluid-section right-padding">
                       <img
                   class="img-fluid"
                   src="https://ik.imagekit.io/bayc/assets/ape2.png"
@@ -51,7 +54,7 @@ const Home = () => {
                       </div>
                     </div>
                     <div class="row">
-                      <div class="pt-2 pr-2 col-6">
+                      <div class="pt-2 pr-2 col-6 img-fluid-section">
                       <img
                   class="img-fluid"
                   src="https://ik.imagekit.io/bayc/assets/ape3.png"
@@ -59,7 +62,7 @@ const Home = () => {
                   aria-label="ape3"
                 />
                       </div>
-                      <div class="pt-2 pl-2 col-6">
+                      <div class="pt-2 pl-2 col-6 img-fluid-section">
                       <img
                   class="img-fluid"
                   src="https://ik.imagekit.io/bayc/assets/ape4.png"
@@ -73,6 +76,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+
 
 
 
@@ -99,17 +103,17 @@ const Home = () => {
           class="mb-5 row yellow-division"
 
         >
-          <div class="col">
+          <div class="col" style={{paddingBottom: "0px"}}>
             <div id="buy-an-ape" class="fair-title">
-              <div class="bayc-bg p-4 m-auto row">
-                <div class="m-auto col-lg-3 col-12 each-column" style={{ paddingTop: "20px" }}>
+              <div class="bayc-bg p-4 m-auto row" style={{height: "100%"}}>
+                <div class="m-auto col-lg-3 col-12 each-column" id="inner-div" style={{ paddingTop: "20px" }}>
                   <h3 class="buy-ape-title">BUY AN APE</h3>
                 </div>
                 <div class="m-auto col-lg-4 col-12 offset-lg-1 each-column">
                   <p
                     style={{
                       color: "#000",
-                      fontSize: "0.75em",
+                      fontSize: "1em",
                       textAlign: "justify",
                       wordSpacing: "1px",
                     }}
@@ -174,7 +178,7 @@ const Home = () => {
         <hr style={{borderColor: "rgb(105,105,105)", opacity: "30%"}} />
 
         <Row>
-          <Col sm={8}>
+          <Col sm={12}>
             <h1>WELCOME TO THE CLUB</h1>
             <p>
               When you buy a Bored Ape, you’re not simply buying an avatar or a provably-rare piece
@@ -378,7 +382,7 @@ const Home = () => {
           </div>
           <div
             class="shirt-container mx-auto mb-5 my-lg-auto col-lg-3 col-12 offset-lg-1 center"
-            style={{ backgroundColor: "#bfc500", maxWidth: "80%", height: "240px" }}
+            style={{ backgroundColor: "#bfc500", maxWidth: "80%", height: "400px" }}
           >
             <img
               class="shirt-mask"
@@ -457,7 +461,7 @@ const Home = () => {
                 <div class="col-lg-4 col-12 offset-lg-1">
                   <div class="common-container">
                     <div class="row">
-                      <div class="pb-2 pr-2 col-6">
+                      <div class="pb-2 pr-2 col-6 img-fluid-section">
                         <img
                           class="img-fluid"
                           src="https://ik.imagekit.io/bayc/assets/garga.png"
@@ -465,7 +469,7 @@ const Home = () => {
                           aria-label="garga"
                         />
                       </div>
-                      <div class="pb-2 pl-2 col-6">
+                      <div class="pb-2 pl-2 col-6 img-fluid-section">
                         <img
                           class="img-fluid"
                           src="https://ik.imagekit.io/bayc/assets/gordy.png"
@@ -475,7 +479,7 @@ const Home = () => {
                       </div>
                     </div>
                     <div class="row">
-                      <div class="pt-2 pr-2 col-6">
+                      <div class="pt-2 pr-2 col-6 img-fluid-section">
                         <img
                           class="img-fluid"
                           src="https://ik.imagekit.io/bayc/assets/tomato.png"
@@ -483,7 +487,7 @@ const Home = () => {
                           aria-label="tomato"
                         />
                       </div>
-                      <div class="pt-2 pl-2 col-6">
+                      <div class="pt-2 pl-2 col-6 img-fluid-section">
                         <img
                           class="img-fluid"
                           src="https://ik.imagekit.io/bayc/assets/sass.png"

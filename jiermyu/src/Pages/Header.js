@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+//TODO: Turn nav-links into hamburger when screen size gets small
 const Header = () => {
     return (
         <div class='main-header'>
@@ -15,7 +15,10 @@ const Header = () => {
                     <div class="collapse navbar-collapse" id="navbarResponsive" style={{ paddingTop: "0px" }}>
                         <ul class="navbar-nav ms-auto py-4 py-lg-0">
                             <li class="nav-item "><a class="nav-link px-lg-3 py-3 py-lg-4" href=""><p class='navigation-link-text'>Home</p></a></li>
-
+                            <li class="nav-item "><a class="nav-link px-lg-3 py-3 py-lg-4" href=""><p class='navigation-link-text'>Buy An Ape</p></a></li>
+                            <li class="nav-item "><a class="nav-link px-lg-3 py-3 py-lg-4" href=""><p class='navigation-link-text'>Road Map</p></a></li>
+                            <li class="nav-item "><a class="nav-link px-lg-3 py-3 py-lg-4" href=""><p class='navigation-link-text'>Team</p></a></li>
+                            
 
                             <a href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q" class='header-links'><FontAwesomeIcon icon="fa-brands fa-youtube" /></a>
                             <a class='header-links'><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
