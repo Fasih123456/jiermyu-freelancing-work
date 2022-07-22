@@ -11,6 +11,10 @@
     font-style: italic;
 }
 
+.shirt-container{
+    height: 300px;
+}
+
 .bayc-bg{
     padding-top: 0px !important;
 }
@@ -132,10 +136,12 @@ h1{
 }
 
 .shirt-mask {
-
     opacity: 100%;
     height: 120%;
-    width: 120%;
+    max-width: 140%;
+    position: relative;
+    top: -8%;
+    left: 5%;
 }
 
 .shirt {
@@ -292,6 +298,10 @@ footer{
 }
 
 @media only screen and (max-width: 992px){
+    .shirt-container{
+        height: 500px;
+    }
+
     .final-footer{
         opacity: 0;
     }
