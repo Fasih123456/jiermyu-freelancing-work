@@ -14,85 +14,83 @@ const Home = () => {
       <Header />
       <div class="container px-4 px-lg-5 main-body">
         <Container style={{ paddingTop: "1.5rem" }}>
-          <div class="mb-2 row">
+          <div class="mb-5 row">
             <div class="col">
-              <div id="team" class="common-container">
-                <div class="mb-5 row">
-                  <div class="mb-3 col-lg-7 col-12 zero-padding">
-                    <h1>
-                      WELCOME TO THE <br /> BORED APE YACHT CLUB
-                    </h1>
-                    <p>
-                      BAYC is a collection of 10,000 Bored Ape NFTs—unique digital collectibles
-                      living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club
-                      membership card, and grants access to members-only benefits, the first of
-                      which is access to THE BATHROOM, a collaborative graffiti board. Future areas
-                      and perks can be unlocked by the community through roadmap activation.
-                    </p>
-                  </div>
-                  <div class="col-lg-4 col-12 offset-lg-1 zero-padding">
-                    <div class="common-container">
-                      <div class="row">
-                        <div class="pb-2 pr-2 col-6 img-fluid-section left-padding">
-                          <img
-                            class="img-fluid"
-                            src="https://ik.imagekit.io/bayc/assets/ape1.png"
-                            alt="ape1"
-                            aria-label="ape1"
-                          />
-                        </div>
-                        <div class="pb-2 pl-2 col-6 img-fluid-section right-padding">
-                          <img
-                            class="img-fluid"
-                            src="https://ik.imagekit.io/bayc/assets/ape2.png"
-                            alt="ape2"
-                            aria-label="ape2"
-                          />
-                        </div>
+              <div class="mb-4 row">
+                <div class="mb-4 col-lg-7 col-12">
+                  <h1 class="d-flex font-italic welcome-title mb-3">
+                    WELCOME TO THE
+                    <br />
+                    BORED APE YACHT CLUB
+                  </h1>
+                  <p class="common-p mb-0">
+                    BAYC is a collection of 10,000 Bored Ape NFTs—unique digital collectibles living
+                    on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership
+                    card, and grants access to members-only benefits, the first of which is access
+                    to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be
+                    unlocked by the community through roadmap activation.
+                  </p>
+                </div>
+                <div class="my-lg-auto col-lg-4 col-12 offset-lg-1">
+                  <div class="common-container">
+                    <div class="row">
+                    <div class="pb-2 pr-2 col-6 img-fluid-section left-padding">
+                        <img
+                          class="img-fluid"
+                          src="https://ik.imagekit.io/bayc/assets/ape1.png"
+                          alt="ape1"
+                          aria-label="ape1"
+                        />
                       </div>
-                      <div class="row">
-                        <div class="pt-2 pr-2 col-6 img-fluid-section">
-                          <img
-                            class="img-fluid"
-                            src="https://ik.imagekit.io/bayc/assets/ape3.png"
-                            alt="ape3"
-                            aria-label="ape3"
-                          />
-                        </div>
-                        <div class="pt-2 pl-2 col-6 img-fluid-section">
-                          <img
-                            class="img-fluid"
-                            src="https://ik.imagekit.io/bayc/assets/ape4.png"
-                            aria-label="ape4"
-                          />
-                        </div>
+                      <div class="pb-2 pr-2 col-6 img-fluid-section left-padding">
+                        <img
+                          class="img-fluid"
+                          src="https://ik.imagekit.io/bayc/assets/ape2.png"
+                          alt="ape2"
+                          aria-label="ape2"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="pb-2 pr-2 col-6 img-fluid-section left-padding">
+                        <img
+                          class="img-fluid"
+                          src="https://ik.imagekit.io/bayc/assets/ape3.png"
+                          alt="ape3"
+                          aria-label="ape3"
+                        />
+                      </div>
+                      <div class="pb-2 pr-2 col-6 img-fluid-section left-padding">
+                        <img
+                          class="img-fluid"
+                          src="https://ik.imagekit.io/bayc/assets/ape4.png"
+                          aria-label="ape4"
+                        />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="row" style={{ paddingBottom: "40px" }}>
-            <div class="mb-3 col-12">
-              <h3 class="yellow-text">FAIR DISTRIBUTION</h3>
+              <div class="row">
+                <div class="mb-3 col-12">
+                <h3 class="yellow-text">FAIR DISTRIBUTION</h3>
               <h4 class="ponzi">(BONDING CURVES ARE A PONZI)</h4>
-            </div>
-            <div class="mb-2 mb-lg-0 col-lg-7 col-12">
-              <p class="common-p mb-lg-0">
-                There are no bonding curves here. Buying a Bored Ape costs 0.08 ETH. There are no
-                price tiers; BAYC membership costs the same for everyone.
-              </p>
-            </div>
-            <div class="col-lg-4 col-12 offset-lg-1">
-              <p class="note text-justify mb-0">
-                Note: Thirty apes are being withheld from the sale. These will be used for
-                giveaways, puzzle rewards—and for the creators' BAYC memberships.
-              </p>
+                </div>
+                <div class="mb-2 mb-lg-0 col-lg-7 col-12">
+                  <p class="common-p mb-lg-0">
+                    There are no bonding curves here. Buying a Bored Ape costs 0.08 ETH. There are
+                    no price tiers; BAYC membership costs the same for everyone.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-12 offset-lg-1">
+                  <p class="note text-justify mb-0">
+                    Note: Thirty apes are being withheld from the sale. These will be used for
+                    giveaways, puzzle rewards—and for the creators' BAYC memberships.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-
           <div class="mb-5 row yellow-division">
             <div class="col" style={{ paddingBottom: "0px" }}>
               <div id="buy-an-ape" class="fair-title">
@@ -194,7 +192,7 @@ const Home = () => {
                         src="https://ik.imagekit.io/bayc/assets/icon1.png"
                         alt="petrified monkey paw"
                         width="100px"
-                        id='image1'
+                        id="image1"
                       />
                     </div>
                     <div class="m-auto col-md-12 col-8 offset-md-0 offset-1">
@@ -212,7 +210,7 @@ const Home = () => {
                         src="https://ik.imagekit.io/bayc/assets/icon2.png"
                         alt="tiki monkey"
                         width="100px"
-                        id='image2'
+                        id="image2"
                       />
                     </div>
                     <div class="m-auto col-md-12 col-8 offset-md-0 offset-1">
@@ -230,7 +228,7 @@ const Home = () => {
                         src="https://ik.imagekit.io/bayc/assets/icon3.png"
                         alt="captain monkey"
                         width="100px"
-                        id='image3'
+                        id="image3"
                       />
                     </div>
                     <div class="m-auto col-md-12 col-8 offset-md-0 offset-1">
@@ -248,7 +246,7 @@ const Home = () => {
                         src="https://ik.imagekit.io/bayc/assets/icon4.png"
                         alt="beer bottles"
                         width="100px"
-                        id='image4'
+                        id="image4"
                       />
                     </div>
                     <div class="m-auto col-md-12 col-8 offset-md-0 offset-1">
@@ -266,7 +264,7 @@ const Home = () => {
                         src="https://ik.imagekit.io/bayc/assets/icon5.png"
                         alt="mermonkey"
                         width="100px"
-                        id='image5'
+                        id="image5"
                       />
                     </div>
                     <div class="m-auto col-md-12 col-8 offset-md-0 offset-1">
