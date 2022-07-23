@@ -11,9 +11,9 @@ const Footer = () => {
 
           <div class="row mx-0 footer-padding">
             <div class="col-12 col-lg-4 order-lg-first my-lg-auto" style={{fontSize: "12px"}}>
-              <div class="email-container" >
-                <span class="email-label" style={{fontSize: "20px"}}>GET ON THE LIST</span>
-                <br />
+              <div class="email-container" style={{fontSize: "12px", textAlign: "left"}}>
+                <span class="email-label" style={{fontSize: "12px", paddingLeft: "35px"}}>GET ON THE LIST</span>
+
                 <div class="d-flex email-flex" style={{paddingTop: "10px"}}>
                   <br />
                   <form

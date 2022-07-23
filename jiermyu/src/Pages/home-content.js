@@ -213,7 +213,7 @@ const Home = () => {
                         id="image2"
                       />
                     </div>
-                    <div class="m-auto col-md-12 col-8 offset-md-0 offset-1">
+                    <div class="m-auto col-md-12 col-8 offset-md-0 offset-1" style={{paddingTop: "25px"}}>
                       <p class="mb-0 common-sub-p text-md-center small-text">
                         Fair Launch, fair distribution: All apes cost 0.08 ETH
                       </p>
@@ -222,7 +222,7 @@ const Home = () => {
                 </div>
                 <div class="mx-auto col-md-2 col-12">
                   <div class="mb-4 mb-md-0 row">
-                    <div class="d-flex m-auto align-items-md-center icon-container col-md-12 col-3">
+                    <div class="d-flex m-auto align-items-md-center icon-container col-md-12 col-3" >
                       <img
                         class="img-fluid m-auto"
                         src="https://ik.imagekit.io/bayc/assets/icon3.png"
@@ -231,7 +231,7 @@ const Home = () => {
                         id="image3"
                       />
                     </div>
-                    <div class="m-auto col-md-12 col-8 offset-md-0 offset-1">
+                    <div class="m-auto col-md-12 col-8 offset-md-0 offset-1" style={{paddingTop: "25px"}}>
                       <p class="mb-0 common-sub-p text-md-center small-text">
                         Ownership and commercial usage rights given to the consumer over their NFT
                       </p>
@@ -258,7 +258,7 @@ const Home = () => {
                 </div>
                 <div class="mx-auto col-md-2 col-12">
                   <div class=" mb-md-0 row">
-                    <div class="d-flex m-auto align-items-md-center icon-container col-md-12 col-3">
+                    <div class="d-flex m-auto align-items-md-center icon-container col-md-12 col-3" style={{paddingTop: "45px"}}>
                       <img
                         class="img-fluid m-auto"
                         src="https://ik.imagekit.io/bayc/assets/icon5.png"
