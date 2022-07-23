@@ -42,7 +42,7 @@ const Home = () => {
                           aria-label="ape1"
                         />
                       </div>
-                      <div class="pb-2 pr-2 col-6 img-fluid-section left-padding">
+                      <div class="pb-2 pr-2 col-6 img-fluid-section right-padding">
                         <img
                           class="img-fluid"
                           src="https://ik.imagekit.io/bayc/assets/ape2.png"
@@ -60,7 +60,7 @@ const Home = () => {
                           aria-label="ape3"
                         />
                       </div>
-                      <div class="pb-2 pr-2 col-6 img-fluid-section left-padding">
+                      <div class="pb-2 pr-2 col-6 img-fluid-section right-padding">
                         <img
                           class="img-fluid"
                           src="https://ik.imagekit.io/bayc/assets/ape4.png"
