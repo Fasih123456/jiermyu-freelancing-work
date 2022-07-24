@@ -381,6 +381,11 @@ footer{
     
 }
 
+::placeholder{
+    font-size: 10px;
+    color: whitesmoke;
+}
+
 .last-line {
     border-bottom: 15px solid #bfc500;
     display: block;
