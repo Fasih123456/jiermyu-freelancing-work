@@ -190,6 +190,10 @@ img {
 
 }
 
+.shirt-container{
+    max-width: 75%;
+}
+
 button{
     border-radius: 15px;
     border-color: black;
@@ -367,6 +371,11 @@ footer{
     .main-header, .main-body{
         padding-left: 3%;
         padding-right: 3%;
+    }
+
+
+    .shirt-container{
+        max-width: 100%;
     }
 
     

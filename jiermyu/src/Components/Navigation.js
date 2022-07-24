@@ -55,9 +55,9 @@ class Navigation extends React.Component {
           <FontAwesomeIcon icon="fa-solid fa-bars" />
       <Menu right width={100}>
         <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">Bye An Ape</a>
-        <a id="contact" className="menu-item" href="/contact">Road Map</a>
-        <a id="contact" className="menu-item" href="/contact">Team</a>
+        <a id="about" className="menu-item" href="/">Bye An Ape</a>
+        <a id="contact" className="menu-item" href="/">Road Map</a>
+        <a id="contact" className="menu-item" href="/">Team</a>
       </Menu>
       </ul>
       </div>
