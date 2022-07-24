@@ -403,7 +403,7 @@ const Home = () => {
             </div>
             <div
               class="shirt-container mx-auto mb-5 my-lg-auto col-lg-3 col-12 offset-lg-1 center"
-              style={{ backgroundColor: "#bfc500", maxWidth: "75%" }}
+              style={{ backgroundColor: "#bfc500", maxWidth: "75%", paddingTop: "20px" }}
             >
               <img
                 class="shirt-mask"
