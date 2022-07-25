@@ -10,7 +10,7 @@ const Header = () => {
         <div style={{display: "inline-block"}}>
         <nav style={{}} class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" style={{color: "white"}} href="/" style={{paddingLeft: "60px"}}>
+                <a class="navbar-brand" style={{color: "white"}} href="/" >
                     
 <img src="https://ik.imagekit.io/bayc/assets/bayc-logo-z.png" class="d-inline-block align-top" alt="bored ape logo" height="75px" width="auto" />
 
