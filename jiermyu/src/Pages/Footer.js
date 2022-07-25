@@ -62,10 +62,10 @@ const Footer = () => {
             <div class="order-last my-auto text-center col-lg-4 col-sm-12 col-12 last-section">
               <div class="row">
                 <div class="text-lg-right col-sm-12 col-12">
-                <a href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q"><FontAwesomeIcon icon="fa-brands fa-youtube" /></a>
-                        <FontAwesomeIcon icon="fa-brands fa-instagram" />
-                        <a href="https://discord.gg/3P5K3dzgdB"><FontAwesomeIcon icon="fa-brands fa-discord" /></a>
-                        <a href="https://twitter.com/BoredApeYC">                        <FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
+                <a style={{paddingRight: "10px"}} href="https://www.youtube.com/channel/UCB6R9NAjkgxQi_QEkc4O25Q"><FontAwesomeIcon icon="fa-brands fa-youtube" /></a>
+                        <a style={{paddingRight: "10px"}}> <FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
+                        <a style={{paddingRight: "10px"}} href="https://discord.gg/3P5K3dzgdB"><FontAwesomeIcon icon="fa-brands fa-discord" /></a>
+                        <a style={{paddingRight: "10px"}} href="https://twitter.com/BoredApeYC">                        <FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
 
                 </div>
                 <div class="col-lg-12 col-sm-6 col-6">

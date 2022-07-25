@@ -54,10 +54,12 @@ nav{
 
 svg{
     color: #fff;
-    padding: 30px 10px;
+
     transition: .3s;
     font-size: 15px;
 }
+
+
 
 body{
     color: white;
@@ -285,13 +287,10 @@ button:hover{
     background: transparent;
   }
 
-  .navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    flex-basis: auto;
-}
+
 
 .navbar-expand-lg .navbar-nav {
-     flex-direction: row; 
+
 }
 
 .logo-lines{
@@ -311,6 +310,15 @@ footer{
 }
 
 @media only screen and (max-width: 992px){
+    .navigation-link-text{
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        display: table;
+    }
+
     .email-label{
         padding-left: 25px;
     }
