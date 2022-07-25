@@ -317,7 +317,14 @@ footer{
     padding-left: 60px;
 }
 
+.fontaswesome{
+    opacity: 1;
+}
+
 @media only screen and (max-width: 992px){
+    .navbar-nav{
+        background-color: #00000099
+    }
 
     .navbar-brand{
         padding: 0px;
@@ -345,7 +352,7 @@ footer{
     }
 
     .fontaswesome{
-        display: none;
+        opacity: 0;
     }
 
     .navigation-link-text{
