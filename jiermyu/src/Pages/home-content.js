@@ -91,7 +91,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div class="mb-5 row yellow-division">
+          <div id="buy-an-ape" class="mb-5 row yellow-division">
             <div class="col" style={{ paddingBottom: "0px" }}>
               <div id="buy-an-ape" class="fair-title">
                 <div class="bayc-bg p-4 m-auto row" style={{ height: "100%" }}>
@@ -314,7 +314,7 @@ const Home = () => {
           </div>
 
           <hr style={{ borderColor: "rgb(105,105,105)", opacity: "30%" }} />
-          <div class="row">
+          <div id="roadmap" class="row">
             <div class="mb-3 col-lg-9 col-12">
               <h2 class="common-title mb-3">ROADMAP ACTIVATIONS</h2>
               <p class="common-p">We’re in this for the long haul.</p>
@@ -449,7 +449,7 @@ const Home = () => {
 
           <hr style={{ borderColor: "rgb(105,105,105)", opacity: "30%" }} />
 
-          <div class="mb-5 row">
+          <div id="team" class="mb-5 row">
             <div class="col">
               <div id="team" class="common-container">
                 <div class="row">

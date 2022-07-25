@@ -313,7 +313,16 @@ footer{
     height: 70%;
 }
 
+.navbar-brand{
+    padding-left: 60px;
+}
+
 @media only screen and (max-width: 992px){
+
+    .navbar-brand{
+        padding-left: 0px;
+    }
+    
     .buy-button{
         height: 40%;
     }
