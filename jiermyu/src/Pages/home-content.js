@@ -91,8 +91,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div id="buy-an-ape" class="mb-5 row yellow-division">
-            <div class="col" style={{ paddingBottom: "0px" }}>
+          <div id="buy-an-ape" class="mb-5 row yellow-division" >
+            <div class="col "  style={{ paddingBottom: "0px", backgroundColor: "#bfc500" }}>
               <div id="buy-an-ape" class="fair-title">
                 <div class="bayc-bg p-4 m-auto row" style={{ height: "100%" }}>
                   <div
