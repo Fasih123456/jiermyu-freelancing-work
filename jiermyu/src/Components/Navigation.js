@@ -21,13 +21,13 @@ class Navigation extends React.Component{
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" ><Link style={{color: "white "}} to="/WhyDonate" id='page2'><p class="navigation-link-text">Buy An Ape</p></Link></a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link style={{color: "white "}} to="/DonateToday" id='page3'><p class="navigation-link-text">Road Map</p></Link></a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text">Team</p></Link></a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text"><FontAwesomeIcon icon="fa-brands fa-youtube" /></p></Link></a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text fontaswesome"><FontAwesomeIcon icon="fa-brands fa-youtube" /></p></Link></a></li>
 
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text"><FontAwesomeIcon icon="fa-brands fa-instagram" /></p></Link></a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text fontaswesome"><FontAwesomeIcon icon="fa-brands fa-instagram" /></p></Link></a></li>
 
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text"><FontAwesomeIcon icon="fa-brands fa-discord" /></p></Link></a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text fontaswesome "><FontAwesomeIcon icon="fa-brands fa-discord" /></p></Link></a></li>
 
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text"><FontAwesomeIcon icon="fa-brands fa-twitter" /></p></Link></a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"><Link  style={{color: "white "}} to="/FAQ" id='page4'><p class="navigation-link-text fontaswesome"><FontAwesomeIcon icon="fa-brands fa-twitter" /></p></Link></a></li>
                     </ul>
                 </React.Fragment>
             );
