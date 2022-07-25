@@ -115,7 +115,7 @@ const Home = () => {
                       on OpenSea.
                     </p>
                   </div>
-                  <div style={{height: "70%"}} class="m-auto col-lg-3 col-12 offset-lg-1 each-column">
+                  <div class="m-auto buy-button col-lg-3 col-12 offset-lg-1 each-column">
                     <a  class="button-style" href="https://opensea.io/collection/boredapeyachtclub">
                       <button  class="inside-button-font" id="button-for-buy" type="button">
                         BUY AN APE ON OPENSEA
