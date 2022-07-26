@@ -34,6 +34,7 @@ class Navigation extends React.Component{
         }else {
             this.state.renderComponent = (
                 <React.Fragment>
+                    
                     <ul  class="navbar-nav ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 " ><Link style={{color: "white "}} to="/" id='page1'><p class="navigation-link-text">Home</p></Link></a></li>
                         <li class="nav-item"><a href="#buy-an-ape" class="nav-link px-lg-3 py-3 py-lg-4" ><p class="navigation-link-text">Buy An Ape</p></a></li>

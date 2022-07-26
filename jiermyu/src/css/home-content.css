@@ -321,7 +321,34 @@ footer{
     opacity: 1;
 }
 
+#headerDiv{
+    display: inline-block;
+}
+
+header{
+    padding-top: 60px;
+}
+
 @media only screen and (max-width: 992px){
+    
+
+    header{
+        padding-top: 0px;
+    }
+
+    #mainNav{
+        display: contents !important;
+        height: 300px;
+    }
+
+    .nav-item{
+        line-height: 0px;
+    }
+
+    #headerDiv{
+        display: contents;
+    }
+
     .navbar-nav{
         background-color: #00000099
     }
@@ -341,6 +368,12 @@ footer{
         padding-left: 0px !important;
         padding-right: 0px !important;
         margin: 0px;
+
+    }
+
+    svg{
+        color: grey;
+        height: 30px !important;
     }
 
     .navbar-brand{
@@ -353,11 +386,6 @@ footer{
 
     .fontaswesome{
         opacity: 0;
-    }
-
-    .navigation-link-text{
-        font-size: 12px;
-        font-weight: 600;
     }
 
     .navbar-expand-lg .navbar-nav {
@@ -404,7 +432,7 @@ footer{
 
 
     .nav-link{
-        padding-top: 25px !important;
+        padding-top: 0px !important;
     }
 
     #root{

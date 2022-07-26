@@ -7,8 +7,8 @@ import React from "react";
 const Header = () => {
     return (
         <React.Fragment>
-        <div style={{display: "inline-block"}}>
-        <nav style={{}} class="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <div id="headerDiv">
+        <nav style={{}} class="navbar navbar-expand-lg navbar-light" id="mainNav" >
             <div class="container header-container px-4 px-lg-5">
                 <a class="navbar-brand" style={{color: "white"}} href="/" >
                     
@@ -20,12 +20,14 @@ const Header = () => {
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
+
                     <Navigation />
+
                 </div>
             </div>
         </nav>
         </div>
-        <header style={{paddingTop: "55px"}}>
+        <header>
                 <img src="https://ik.imagekit.io/bayc/assets/bayc-mutant-hero.jpg" class="img-fluid px-0" usemap="#mutant" />
             </header>
 
