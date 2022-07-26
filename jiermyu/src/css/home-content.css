@@ -330,6 +330,10 @@ header{
 }
 
 @media only screen and (max-width: 992px){
+    .icon{
+        display: none;
+    }
+
     .navbar-collapse{
         max-height: 200px;
     }
